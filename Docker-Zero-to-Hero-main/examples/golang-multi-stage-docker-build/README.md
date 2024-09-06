@@ -15,4 +15,4 @@ The main purpose of choosing a golang based applciation to demostrate this examp
 
 Advantage : 
 
-So the real advantage of multi stage docker build and distro less images can be understand with a drastic decrease in the Image size and aslo the container image that we have are running securely and that docker images is very less vulnerable to the threats.
+So the real advantage of multi stage docker build and distro less images can be understand with a drastic decrease in the Image size and aslo the container image that we have is running securely and that docker image is very less vulnerable to the threats.
