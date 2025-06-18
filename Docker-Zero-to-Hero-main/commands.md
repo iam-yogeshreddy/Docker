@@ -56,3 +56,8 @@ Run a command in a running container.
 ### docker network
 
 Manage Docker networks such as creating and removing networks, and connecting containers to networks.
+
+
+### docker ps -a -f status=exited
+
+To list stopped Docker containers
