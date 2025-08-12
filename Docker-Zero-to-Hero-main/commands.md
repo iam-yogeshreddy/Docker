@@ -33,7 +33,7 @@ Stops running container.
 
 Starts a stopped container.
 
-### docker rm
+### docker rm 
 
 Removes a stopped container.
 
@@ -53,11 +53,22 @@ Uploads an image to the configured registry.
 
 Run a command in a running container.
 
-### docker network
+### 𝐝𝐨𝐜𝐤𝐞𝐫 𝐩𝐬 -𝐚
 
-Manage Docker networks such as creating and removing networks, and connecting containers to networks.
-
+Lists all containers — running, stopped, exited, or just created
 
 ### docker ps -a -f status=exited
 
 To list stopped Docker containers
+
+### 𝐝𝐨𝐜𝐤𝐞𝐫 𝐢𝐦𝐚𝐠𝐞 𝐩𝐫𝐮𝐧𝐞
+
+Removes all dangling images — images that have no tag (<none>) and aren’t used by any container
+
+### 𝐝𝐨𝐜𝐤𝐞𝐫 𝐜𝐨𝐧𝐭𝐚𝐢𝐧𝐞𝐫 𝐩𝐫𝐮𝐧𝐞 
+
+Remove all stopped containers
+
+### 𝐝𝐨𝐜𝐤𝐞𝐫 𝐥𝐨𝐠𝐬 𝐂𝐎𝐍𝐓𝐀𝐈𝐍𝐄𝐑_𝐈𝐃 
+
+View container logs
