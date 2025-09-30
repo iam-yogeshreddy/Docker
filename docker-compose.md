@@ -66,3 +66,5 @@ docker compose prune : Clean up unused containers, networks, images, and optiona
 docker compose version : Show Docker Compose version
 
 docker compose --help : Show full help with commands and flags
+
+docker compose top : Use docker compose top to inspect real-time processes inside your containers, which is helpful for debugging, monitoring, and verifying what’s actually running
